@@ -1,0 +1,130 @@
+nav * {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    height: 50px;
+
+
+}
+
+.wrapitems {
+    background-position: center;
+  
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(-45deg, #23ad65, #23d5d5, #0716e9, #e73c7e);
+    background-size: 500% 500%;
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    animation: change 10s ease-in-out infinite;
+    border-color: transparent;
+  }
+  
+  @keyframes change {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+header :hover{
+    color: red;
+}
+
+header .menu {
+    float: right;
+    margin-top: 5px;
+  }
+  
+  header ul li {
+    display: inline-block;
+  }
+  
+  /* here are details of the content in the list of the header */
+  
+  header ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 60px;
+    background: linear-gradient(to top, transparent);
+    margin-left: 425px;
+  }
+.education {
+    margin: auto;
+    text-align: center;
+}
+  .table {
+      margin-top: 30px;
+  }
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+img {
+    margin: auto;
+    display: block;
+}
+
+
+
+h1,h2,h3,h4 {
+    font-family: "Nova Round", cursive;
+}
+.career{
+    display: flex;
+    margin: auto;
+    align-content: center;
+}
+.gitHub{
+    text-align: center;
+    margin: auto;
+    color:red;
+    border: white;
+
+}
+
+.gitHub:hover{
+    
+    color: white;
+    
+
+}
+.backtotop {
+    text-align: center;
+    margin: auto;
+    color: white;
+    border: white;
+}
+
+ .backtotop:hover{
+     color: violet;
+ }
+
+
+
+
+
